@@ -1,0 +1,22 @@
+html {
+    display: block;
+    text-align: center;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+}
+h1, h2 {
+    color: honeydew;
+}
+table {
+    border: 1px solid blue;
+    margin: auto;
+    background-color: gray;
+}
+thead {
+    background-color: darkcyan;
+}
+td {
+    border-top:1px solid blue;
+}
