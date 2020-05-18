@@ -8,10 +8,11 @@
 </head>
 
 <body>
-    <h1>HTML Table Reference</h1>
-    <h2>Table Tags</h2>
-
-    <table>
+    <div class="HTML">
+        <h1>HTML References</h1>
+        <h2>HTML Tables</h2>
+        <h3>Table Tags</h3>
+        <table>
         <thead>
             <th>Tag</th>
             <th>Name</th>
@@ -46,19 +47,17 @@
             <tr>
                 <td>&lt;td&gt;</td>
                 <td>Table Data</td>
-                <td>The data held in a column in the Table Row/</td>
+                <td>The data held in a column in the Table Row.</td>
             </tr>
             <tr>
                 <td>&lt;tfoot&gt;</td>
                 <td>Table Foot</td>
-                <td>The set of rows defining the footer of a table. Usually for results or conclusions</td>
+                <td>The set of rows defining the footer of a table. Usually for results or conclusions.</td>
             </tr>
         </tbody>        
-    </table>
-
-    <h2>Table Attributes</h2>
-
-    <table>
+        </table>
+        <h3>Table Attributes</h3>
+        <table>
         <thead>
             <tr>
                 <th>Attribute</th>
@@ -78,8 +77,234 @@
                 <td>Defines how many rows a td element should span.</td>
             </tr>
         </tbody>
-    </table>
-
+        </table>
+    </div>
+    <br>
+    <br>
+    <div class="CSS">
+        <h1>CSS References</h1>
+        <h2>CSS Display and Positioning</h2>
+        <h3>Display Properties</h3>
+        <h5>'display:"---";'|Dictates how space is shared with other elements.</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>'inline'</td>
+                    <td>Element does not require a new line. Height and width can not be adjusted.</td>
+                </tr>
+                <tr>
+                    <td>'block'</td>
+                    <td>Element will be on it's own line. Can contain other block or inline elements.</td>
+                </tr>
+                <tr>
+                    <td>'inline-block'</td>
+                    <td>Element is displayed 'inline', but height and width can be adjusted.</td>
+                </tr>
+                <tr>
+                    <td>'grid'</td>
+                    <td>Element is displayed 'block' with inner content in grid layout.</td>
+                </tr>
+                <tr>
+                    <td>'flex'</td>
+                    <td>Element is displayed 'block' with inner content in flex layout.</td>
+                </tr>
+                <tr>
+                    <td>'none'</td>
+                    <td>Element and all children will be removed.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Default Displays</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>'inline'</td>
+                    <td>&lt;span&gt;, &lt;input&gt;, &lt;button&gt;, &&lt;img&gt;</td>
+                </tr>
+                <tr>
+                    <td>'block'</td>
+                    <td>&lt;div&gt;, &lt;p&gt;, &lt;h1&gt; thru &lt;h6&gt;, &lt;ul&gt;, &lt;li&gt;, &&lt;canvas&gt;</td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Notes</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>'inline-block'</td>
+                    <td>May also be used with grid, flex or table as these are block-level.</td>
+                </tr>
+                <tr>
+                    <td>'none'</td>
+                    <td>To make an item invisible but still take up space on the page use 'visibility:"---";'</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h3>Positioning Properties</h3>
+        <h5>'position:"---";'|Used to change the default position of an element.</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>'static</td>
+                    <td>Default position. Offset properties have no effect.</td>
+                </tr>
+                <tr>
+                    <td>'relative'</td>
+                    <td>Default position. Can be moved using offset properties.</td>
+                </tr>
+                <tr>
+                    <td>'absolute'</td>
+                    <td>Behaves as relative, but is ignored be all other elements on the page.</td>
+                </tr>
+                <tr>
+                    <td>'fixed'</td>
+                    <td>Behaves as relative, but is not affected by user scrolling through the browser.</td>
+                </tr>
+                <tr>
+                    <td>'sticky'</td>
+                    <td>Behaves as relative, until certain scroll point is met, then is 'fixed'.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Offset Properties</h4>
+        <h5>'top: 20px;'|As an example.</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>'top'</td>
+                    <td>Moves the element down. Space above element.</td>
+                </tr>
+                <tr>
+                    <td>'bottom'</td>
+                    <td>Moves the element up. Space below element.</td>
+                </tr>
+                <tr>
+                    <td>'left'</td>
+                    <td>Moves the element right. Space to the left of element.</td>
+                </tr>
+                <tr>
+                    <td>'right'</td>
+                    <td>Moves the element left. Space to the right of element.</td>
+                </tr>
+                <tr>
+                    <td>'z-index'</td>
+                    <td>Moves element forward or backward. 'z-index: 2;' will be in front of 'z-index: 1;'.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Float Properties</h3>
+        <h5>'float:"---";'</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>'left'</td>
+                    <td>Moves the element as far left as possible.</td>
+                </tr>
+                <tr>
+                    <td>'right'</td>
+                    <td>Moves the element as far right as possible.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Clear Properties</h3>
+        <h5>'clear:"---";'|Specifies how elements should behave when they bump into each other on the page.</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>'left'</td>
+                    <td>The left side of the element will not touch any other element within the same containing element.</td>
+                </tr>
+                <tr>
+                    <td>'right</td>
+                    <td>The right side of the element will not touch any other element within the same containing element.</td>
+                </tr>
+                <tr>
+                    <td>'both'</td>
+                    <td>Neither side of the element will touch any other element within the same containing element.</td>
+                </tr>
+                <tr>
+                    <td>'none'</td>
+                    <td>The element can touch either side.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Notes</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>Consider an inline element such as an &lt;img&gt; nested within a &lt;p&gt;. Setting the float value to ‘left’ will put 
+                        the image on the left side & the text to the right, wrapping to the full line below where the image ends.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <br>
+    <div class="JS">
+        <h1>JavaScript References</h1>
+        <h2>JavaScript stuff</h2>
+        <h3>JavaScript stuff</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>stuff</td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <br>
+    <br>
     
+<footer><h6>Just here to mark the end</h6></footer>    
 </body>
 </html>
