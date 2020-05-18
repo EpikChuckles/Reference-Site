@@ -6,8 +6,31 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: black;
 }
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
     color: honeydew;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+h2 {
+    font-size: 30px;
+}
+.HTML {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png");
+    background-repeat: no-repeat;
+    background-size: 400px 400px;    
+    
+}
+.CSS {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png");
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+}
+.JS {
+    background-image: url("https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png");
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
 }
 table {
     border: 1px solid blue;
