@@ -292,14 +292,91 @@
     <br>
     <div class="JS">
         <h1>JavaScript References</h1>
-        <h2>JavaScript stuff</h2>
-        <h3>JavaScript stuff</h3>
+        <h2>Arrays, Loops and Objects</h2>
+        <h3>Arrays</h3>
+        
         <table>
             <thead>
                 <tr>
-                    <td>stuff</td>
+                    <th>Concept</th>
+                    <th>Description</th>
                 </tr>
             </thead>
+            <tbody>
+                <tr>
+                    <td>Arrays</td>
+                    <td>Arrays are lists that store data. They are created with "[---]" brackets.</td>
+                </tr>
+                <tr>
+                    <td>Indexes</td>
+                    <td>Each item has a number, starting at 0. Can be accessed/changed by "Array[1]='new item';"</td>
+                </tr>
+                <tr>
+                    <td>Methods</td>
+                    <td>Arrays have many methods that can do different things. See <span>Methods Table</span></td>
+                </tr>
+                <tr>
+                    <td>Declaration</td>
+                    <td>Variables containing arrays can be declared with 'let' or 'const'. Arrays declared with const are still mutable, see <span>Methods Table</span></td>
+                </tr>
+                <tr>
+                    <td>Nested Arrays</td>
+                    <td>Arrays inside of arrays are accessed with "arrayName[OuterArrayIndex][InnerArrayIndex]"</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Array Methods</h3>
+        <h5>'arrayName".---()";|Built in Methods to help working with arrays.</h5>
+        <h5>Some Methods are 'mutating', meaning they change the array. They will be marked with 'Mu'</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>'.length'</td>
+                    <td>Not a method, but a property, when called returns the number of items in the array.</td>
+                </tr>
+                <tr>
+                    <td>'.pop()'</td>
+                    <td>Removes the last item from the array. Will return the value if stored in a variable.</td>
+                </tr>
+                <tr>
+                    <td>'.push()'</td>
+                    <td>Add one or more items to the end an array. Seperate multiple items with commas.</td>
+                </tr>
+                <tr>
+                    <td>'.join(' ')'</td>
+                    <td>To return the array as a single string.</td>
+                </tr>
+                <tr>
+                    <td>'.slice()'</td>
+                    <td>To return the value or values at specified indexes. eg 'arrayName.slice(Index of first item wanted, index of item AFTER last item wanted.</td>
+                </tr>
+                <tr>
+                    <td>'.splice()'</td>
+                    <td>To insert values into specific indexes in an array. eg 'arrayNAme.slice(Index of insertion, # of items being replaced, the new value/values.</td>
+                </tr>
+                <tr>
+                    <td>'.shift()'</td>
+                    <td>Used like '.pop()' but affects the first item in the array.</td>
+                </tr>
+                <tr>
+                    <td>'.unshift()'</td>
+                    <td>Used like '.push()' but affects the beginning of the array.</td>
+                </tr>
+                <tr>
+                    <td>'.concat()'</td>
+                    <td>To return a new array out of multiple arrays. eg 'array1.concat(array2, array 3 etc.);.</td>
+                </tr>
+                <tr>
+                    <td>'.indexOf()'</td>
+                    <td>Find the index number of the specified item in the array.</td>
+                </tr>
+            </tbody>
         </table>
     </div>
     <br>
